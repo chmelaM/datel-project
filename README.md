@@ -21,9 +21,16 @@ php artisan storage:link
 # instalace Git
 https://git-scm.com/download/win
 
-# nad slozkou projektu (c:/wamp/www) spustit
+# nad slozkou projektu (c:/wamp/www) spustit:
 git clone https://github.com/pisko999/datel-project.git
 
+# prejmenovat soubor .env.setup na .env (stary se muze smazat)
+
+# ve slozce projektu spustit:
+$ php artisan key:generate
+$ composer update
+
+-----------
 # prace s git:
 # pri vytvoreni noveho souboru spustit prikaz (v slozce kde se soubor nachazi):
 git add "jmeno_souboru.php"
