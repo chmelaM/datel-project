@@ -27,10 +27,23 @@ git clone https://github.com/pisko999/datel-project.git
 # prejmenovat soubor .env.setup na .env (stary se muze smazat)
 
 # ve slozce projektu spustit:
-$ php artisan key:generate
-$ composer update
+php artisan key:generate
 
------------
+composer update
+
+----------
+
+# prace s projektem
+
+# controllers se nachazeji ve slozce app/http/controllers
+# objekty ve slozce app/objects
+# modely ve slozce app/models
+# repositories ve slozce app/repositories
+# routes jsou v souboru routes/web.php
+# views ve slozce resources/views a pouzivaji koncovku .blade.php
+
+
+----------
 # prace s git:
 # pri vytvoreni noveho souboru spustit prikaz (v slozce kde se soubor nachazi):
 git add "jmeno_souboru.php"
