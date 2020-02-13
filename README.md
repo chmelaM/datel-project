@@ -33,6 +33,8 @@ git pull
 
 # pro odeslani zmen:
 git pull // dulezite pred kazdym odesilanim odesilanim mit aktualni verzi ze serveru
+
 git commit -m "message"
+
 git push
 
