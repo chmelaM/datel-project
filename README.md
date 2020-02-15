@@ -30,6 +30,7 @@ git clone https://github.com/pisko999/datel-project.git
 php artisan key:generate
 composer require barryvdh/laravel-debugbar --dev
 composer require laravelcollective/html
+composer require phpoffice/phpspreadsheet
 
 composer update
 
