@@ -25,6 +25,7 @@ https://git-scm.com/download/win
 git clone https://github.com/pisko999/datel-project.git
 
 # prejmenovat soubor .env.setup na .env (stary se muze smazat)
+# zeditovat tento soubor a zapsat spravne udeje k databazi
 
 # ve slozce projektu spustit:
 php artisan key:generate
