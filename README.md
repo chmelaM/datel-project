@@ -28,6 +28,8 @@ git clone https://github.com/pisko999/datel-project.git
 
 # ve slozce projektu spustit:
 php artisan key:generate
+composer require barryvdh/laravel-debugbar --dev
+composer require laravelcollective/html
 
 composer update
 
