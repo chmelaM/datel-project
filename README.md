@@ -35,20 +35,24 @@ git fetch
 
 git checkout origin/master -ft
 
-# prejmenovat soubor .env.setup na .env (stary se muze smazat)
+# prejmenovat soubor .env.setup na .env (stary predem smazat)
 
 # ve slozce projektu spustit:
-vendor\bin\upgrade-carbon
-
 composer require barryvdh/laravel-debugbar --dev
 
+# chyby si zatim nevismat
 composer require laravelcollective/html
+
+# kvuli chybe spustit znovu
+composer require barryvdh/laravel-debugbar --dev
 
 composer require phpoffice/phpspreadsheet
 
 composer update
 
 php artisan key:generate
+
+# v tuto chvili je stranka funkcni
 
 ----------
 
