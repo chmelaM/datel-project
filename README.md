@@ -36,6 +36,8 @@ git checkout origin/master -ft
 # prejmenovat soubor .env.setup na .env (stary se muze smazat)
 
 # ve slozce projektu spustit:
+vendor\bin\upgrade-carbon
+
 composer require barryvdh/laravel-debugbar --dev
 
 composer require laravelcollective/html
