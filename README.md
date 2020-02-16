@@ -1,8 +1,10 @@
 # datel-project
 # nainstalovat Wamp/Lamp/Mamp
+# ujistit se nainstalovani php7.4.0 a pridani mysql
 
 # nainstalovat Composer z 
 https://getcomposer.org/download
+# pri instalaci zvolit php7.4.0 ktere se nachazi v c:\wamp64\bin\php\php7.4.0\php.exe
 
 
 # v prikazovem radku ve slozce pro projekty spusit prikaz:
