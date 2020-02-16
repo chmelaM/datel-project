@@ -36,8 +36,6 @@ git checkout origin/master -ft
 # prejmenovat soubor .env.setup na .env (stary se muze smazat)
 
 # ve slozce projektu spustit:
-php artisan key:generate
-
 composer require barryvdh/laravel-debugbar --dev
 
 composer require laravelcollective/html
@@ -45,6 +43,8 @@ composer require laravelcollective/html
 composer require phpoffice/phpspreadsheet
 
 composer update
+
+php artisan key:generate
 
 ----------
 
