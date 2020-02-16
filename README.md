@@ -21,15 +21,27 @@ php artisan storage:link
 # instalace Git
 https://git-scm.com/download/win
 
-# nad slozkou projektu (c:/wamp/www) spustit:
-git clone https://github.com/pisko999/datel-project.git
+# vytvorit si ucet na github.com a poslat mi uzivatelske jmeno abych vas pridal do projektu
+# pote pokracovat dalsimi kroky
+
+# ve slozce projektu spustit:
+git init
+
+git remote add origin https://github.com/pisko999/datel-project.git
+
+git fetch
+
+git checkout origin/master -ft
 
 # prejmenovat soubor .env.setup na .env (stary se muze smazat)
 
 # ve slozce projektu spustit:
 php artisan key:generate
+
 composer require barryvdh/laravel-debugbar --dev
+
 composer require laravelcollective/html
+
 composer require phpoffice/phpspreadsheet
 
 composer update
