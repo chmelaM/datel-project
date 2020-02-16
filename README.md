@@ -1,8 +1,10 @@
 # datel-project
 # nainstalovat Wamp/Lamp/Mamp
+# ujistit se nainstalovani php7.4.0 a pridani mysql
 
 # nainstalovat Composer z 
 https://getcomposer.org/download
+# pri instalaci zvolit php7.4.0 ktere se nachazi v c:\wamp64\bin\php\php7.4.0\php.exe
 
 
 # v prikazovem radku ve slozce pro projekty spusit prikaz:
@@ -21,18 +23,32 @@ php artisan storage:link
 # instalace Git
 https://git-scm.com/download/win
 
-# nad slozkou projektu (c:/wamp/www) spustit:
-git clone https://github.com/pisko999/datel-project.git
+# vytvorit si ucet na github.com a poslat mi uzivatelske jmeno abych vas pridal do projektu
+# pote pokracovat dalsimi kroky
+
+# ve slozce projektu spustit:
+git init
+
+git remote add origin https://github.com/pisko999/datel-project.git
+
+git fetch
+
+git checkout origin/master -ft
 
 # prejmenovat soubor .env.setup na .env (stary se muze smazat)
 
 # ve slozce projektu spustit:
-php artisan key:generate
+vendor\bin\upgrade-carbon
+
 composer require barryvdh/laravel-debugbar --dev
+
 composer require laravelcollective/html
+
 composer require phpoffice/phpspreadsheet
 
 composer update
+
+php artisan key:generate
 
 ----------
 
