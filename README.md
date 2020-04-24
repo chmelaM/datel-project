@@ -1,4 +1,7 @@
 # datel-project
+# pokud pouzivate integrovane prostredi pro programovani ktere podporuje git, i tak postupujte podle tohoto navodu a dokonceni projekt otevrete v dannem programu a git by se mel integrovat automaticky, nebo me kontaktujte na spinarp@gmail.com
+
+
 # nainstalovat Wamp/Lamp/Mamp
 # ujistit se nainstalovani php7.4.0 a pridani mysql
 
