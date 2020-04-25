@@ -19,3 +19,5 @@ Route::get('/rozdelit', ['as' =>'rozdelitGet', 'uses' => 'rozdelitController@roz
 Route::post('/rozdelit', ['as' =>'rozdelitPost', 'uses' => 'rozdelitController@rozdelitPost']);
 Route::get('/SaveXls', ['as' =>'SaveXlsGet', 'uses' => 'rozdelitController@SaveXlsGet']);
 Route::post('/saveRow', ['as' =>'saveRow', 'uses' => 'rozdelitController@saveRow']);
+Route::get('/porovnat', ['as' =>'porovnatGet', 'uses' => 'porovnatController@porovnatGet']);
+Route::post('/porovnat', ['as' =>'porovnatPost', 'uses' => 'porovnatController@porovnatPost']);
